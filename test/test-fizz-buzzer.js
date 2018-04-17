@@ -19,7 +19,7 @@ describe('fizzBuzzer', function() {
     // for each input (num), `fizzBuzzer` should
     // produce the expected value
     normalCases.forEach(function(input) {
-      const answer = adder(input.num);
+      const answer = fizzBuzzer(input.num);
       expect(answer).to.equal(input.expected);
     });
   });
